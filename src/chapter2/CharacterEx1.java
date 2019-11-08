@@ -16,8 +16,8 @@ public class CharacterEx1 {
 		System.out.println((char)ch3); //정수 값에 해당하는 문자출력 
 		
 		String ch4 = "1234";
-		System.out.println(ch4.length());
-		System.out.println(Integer.parseInt(ch4));
+		System.out.println(ch4.length()); //배열의 길이를 리턴해주는 함수
+		System.out.println(Integer.parseInt(ch4));//String을 int로 바꾸고 싶을때 쓰는거! 
 	}
 
 }
