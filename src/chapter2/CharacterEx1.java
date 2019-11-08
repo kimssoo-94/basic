@@ -15,6 +15,9 @@ public class CharacterEx1 {
 		System.out.println(ch3); //문자 정수 값 출력
 		System.out.println((char)ch3); //정수 값에 해당하는 문자출력 
 		
+		String ch4 = "1234";
+		System.out.println(ch4.length());
+		System.out.println(Integer.parseInt(ch4));
 	}
 
 }
